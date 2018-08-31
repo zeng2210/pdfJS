@@ -1,0 +1,9 @@
+http://mozilla.github.io/pdf.js/web/viewer.html  pdf.js案列
+
+使用方法：
+pdf.js 无需要外网。不需要任何插件 ，相关文件引入js引入。地址引入即可运行。
+
+
+1> .js文件中 #30行  是默认显示的文件地址 可以动态去修改默认显示地址达到动态播放的效果。如（../web/213.pdf）
+
+2> .js文件中封装了响应的地址函数。可以动态的引入vierew.html + file="地址"去访问pdf 。 
